@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="4" build="600" />
+	<region id="TranslatedStringKeys">
+		<node id="root">
+			<children>
+				<node id="TranslatedStringKey">
+					<attribute id="UUID" type="FixedString" value="ClassDescriptions_New_Stat_98_Description" />
+					<attribute id="Speaker" type="FixedString" value="" />
+					<attribute id="ExtraData" type="LSString" value="" />
+					<attribute id="Stub" type="bool" value="True" />
+					<attribute id="Content" type="TranslatedString" handle="h3a7fde7cgec48g4676ga129g7dadbdf4f3aa" version="1" /> h3a7fde7cgec48g4676ga129g7dadbdf4f3cb
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="UUID" type="FixedString" value="ClassDescriptions_New_Stat_99_Description" />
+					<attribute id="Speaker" type="FixedString" value="" />
+					<attribute id="ExtraData" type="LSString" value="" />
+					<attribute id="Stub" type="bool" value="True" />
+					<attribute id="Content" type="TranslatedString" handle="h7c7985f4g0ff2g4097ga2b5g220983d756ab" version="1" /> h7c7985f4g0ff2g4097ga2b5g220983d7561c
+				</node>
+			</children>
+		</node>
+	</region>
+</save>
