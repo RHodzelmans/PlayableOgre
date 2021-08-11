@@ -16,7 +16,7 @@
 					<!-- Melee Ogre is: <attribute id="UUID" type="guid" value="535a319c-d578-4dd4-bfb2-4f7369ba6d67"/> -->
 					<!-- Melee Ogre is: <attribute id="UUID" type="guid" value="cfef7d2e-39f1-41c3-8b76-05d47b73fc16"/> -->
                     <attribute id="ParentGuid" type="guid" value="cfef7d2e-39f1-41c3-8b76-05d47b73fc16"/>
-                    <attribute id="ProgressionTableUUID" type="guid" value="8e8a934b-578c-4193-bbe4-23caf345c72a"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="8e8a934b-578c-4193-bbe4-23caf3459999"/> 8e8a934b-578c-4193-bbe4-23caf345c72a
 					<!-- changed Monstrosity to Giant -->
                     <attribute id="RaceSoundSwitch" type="FixedString" value="Giant"/>
                     <attribute id="UUID" type="guid" value="6112e795-5d35-4057-a0d9-b2f23f8a9999"/> 6112e795-5d35-4057-a0d9-b2f23f8a7472

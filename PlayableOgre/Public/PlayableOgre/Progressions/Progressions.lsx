@@ -13,9 +13,118 @@
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="2"/>
                     <attribute id="Selectors" type="LSString" value=""/>
-                    <attribute id="TableUUID" type="guid" value="8e8a934b-578c-4193-bbe4-23caf345c72a"/>
-                    <attribute id="UUID" type="guid" value="0dc8844b-2b65-426c-a9af-3d0705647c4a"/>
+                    <attribute id="TableUUID" type="guid" value="8e8a934b-578c-4193-bbe4-23caf3459999"/> 8e8a934b-578c-4193-bbe4-23caf345c72a
+                    <attribute id="UUID" type="guid" value="0dc8844b-2b65-426c-a9af-3d0705649999"/> 0dc8844b-2b65-426c-a9af-3d0705647c4a
                 </node>
+				<!-- Ogre Fighter/Champion -->
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Boosts" type="LSString" value="ProficiencyBonus(SavingThrow,Strength);ProficiencyBonus(SavingThrow,Constitution);Proficiency(LightArmor);Proficiency(Shields);Proficiency(SimpleWeapons)"/>
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="Ogre"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSkills(6a4f8598-3a17-42d1-beac-d7ced582bafa,2);AddSpells(9e32fc2b-ce4f-47aa-b113-25cbdc025123);SelectPassives(da3203d8-750a-4de1-b8eb-1eccfccddf46,1)"/>
+                    <attribute id="TableUUID" type="guid" value="ba4e707e-4bbd-4630-963b-ce2f29479999"/> ba4e707e-4bbd-4630-963b-ce2f2947f971
+                    <attribute id="UUID" type="guid" value="dfb2fd83-9849-4c2d-be84-adedb81a9999"/> dfb2fd83-9849-4c2d-be84-adedb81a867a
+                </node>
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="2"/>
+                    <attribute id="Name" type="LSString" value="Ogre"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(964e765d-5881-463e-b1b0-4fc6b8035aa8)"/>
+                    <attribute id="TableUUID" type="guid" value="ba4e707e-4bbd-4630-963b-ce2f29479999"/> ba4e707e-4bbd-4630-963b-ce2f2947f971
+                    <attribute id="UUID" type="guid" value="aafbbc41-16e8-4296-a283-a2c5fdd09999"/> aafbbc41-16e8-4296-a283-a2c5fdd0625b
+                </node>
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="Ogre"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="ba4e707e-4bbd-4630-963b-ce2f29479999"/> ba4e707e-4bbd-4630-963b-ce2f2947f971
+                    <attribute id="UUID" type="guid" value="23eacff0-9efe-4ea6-b031-19075cc99999"/> 23eacff0-9efe-4ea6-b031-19075cc96b63
+                    <children>
+                        <node id="SubClasses">
+                            <children>
+                                <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="e668c6f1-5149-4b10-ab7e-3637ed449999"/> e668c6f1-5149-4b10-ab7e-3637ed444066 BattleMaster
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="true"/>
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="4"/>
+                    <attribute id="Name" type="LSString" value="Ogre"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="ba4e707e-4bbd-4630-963b-ce2f29479999"/> ba4e707e-4bbd-4630-963b-ce2f2947f971
+                    <attribute id="UUID" type="guid" value="05f6a6ef-a574-4317-b9e4-e710975e9999"/> 05f6a6ef-a574-4317-b9e4-e710975e07b4
+                </node>
+				<!-- End of Ogre Fighter -->
+				<!-- Start of Ogre Champion -->
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="Champion"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="69eb2e41-0317-46d7-a6b6-3593de1a9999"/> 69eb2e41-0317-46d7-a6b6-3593de1a5220
+                    <attribute id="UUID" type="guid" value="da34ac1f-362f-4271-972c-e5a79b499999"/> da34ac1f-362f-4271-972c-e5a79b49ee59
+                </node>
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="2"/>
+                    <attribute id="Name" type="LSString" value="Champion"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="69eb2e41-0317-46d7-a6b6-3593de1a9999"/> 69eb2e41-0317-46d7-a6b6-3593de1a5220
+                    <attribute id="UUID" type="guid" value="6d8e161f-4b16-4ca3-8d33-d7d519c49999"/> 6d8e161f-4b16-4ca3-8d33-d7d519c47739
+                </node>
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SuperiorityDie,4,0)"/>
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="Champion"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(e56262e2-6498-45d7-9819-7893dcb2dea1,3)"/>
+                    <attribute id="TableUUID" type="guid" value="69eb2e41-0317-46d7-a6b6-3593de1a9999"/> 69eb2e41-0317-46d7-a6b6-3593de1a5220
+                    <attribute id="UUID" type="guid" value="59505762-9251-463c-a81b-420e9a149999"/> 59505762-9251-463c-a81b-420e9a14c8cd
+                </node>
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="4"/>
+                    <attribute id="Name" type="LSString" value="Champion"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="69eb2e41-0317-46d7-a6b6-3593de1a9999"/> 69eb2e41-0317-46d7-a6b6-3593de1a5220
+                    <attribute id="UUID" type="guid" value="c1c4df37-b95d-4e3e-88e2-a1d0ff439999"/> c1c4df37-b95d-4e3e-88e2-a1d0ff433887
+                </node>
+				<!-- Ogre Fighter/Champion -->
             </children>
         </node>
     </region>

@@ -8,7 +8,7 @@
 					<!-- changed Minotaur to Ogre -->
 					<attribute id="UUID" type="FixedString" value="Ogre_DisplayName" />
 					<attribute id="Stub" type="bool" value="True" />
-					<attribute id="Content" type="TranslatedString" handle="h7852a61bg1daag4e3eg95bfge97e48f53a4f" version="0"/>
+					<attribute id="Content" type="TranslatedString" handle="h7852a61bg1daag4e3eg95bfge97e48f59999" version="0"/>
 					<attribute id="ExtraData" type="LSString" value="" />
 					<attribute id="Speaker" type="FixedString" value="" />
 				</node>

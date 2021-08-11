@@ -14,10 +14,10 @@
                     <attribute id="ParamMatch" type="FixedString" value=""/>
                     <attribute id="PassivePrototype" type="FixedString" value=""/>
                     <attribute id="ProgressionId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
-                    <attribute id="ProgressionTableId" type="guid" value="8e8a934b-578c-4193-bbe4-23caf345c72a"/>
+                    <attribute id="ProgressionTableId" type="guid" value="8e8a934b-578c-4193-bbe4-23caf3459999"/> <!-- leads nowhere? -->
                     <attribute id="SelectorId" type="FixedString" value=""/>
                     <attribute id="Type" type="FixedString" value="PlayableOgre"/>
-                    <attribute id="UUID" type="guid" value="eee7467e-75b8-4fca-805b-2eba5cd67fda"/>
+                    <attribute id="UUID" type="guid" value="eee7467e-75b8-4fca-805b-2eba5cd69999"/> eee7467e-75b8-4fca-805b-2eba5cd67fda
 				</node>
                 <node id="ProgressionDescription">
                     <!-- More AC -->
@@ -31,7 +31,7 @@
                     <attribute id="ProgressionTableId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
                     <attribute id="SelectorId" type="FixedString" value=""/>
                     <attribute id="Type" type="FixedString" value=""/>
-                    <attribute id="UUID" type="guid" value="0433cfda-3e0c-428d-87d8-b47bcd7d1e72"/>
+                    <attribute id="UUID" type="guid" value="0433cfda-3e0c-428d-87d8-b47bcd7d9999"/> 0433cfda-3e0c-428d-87d8-b47bcd7d1e72
                 </node>
                 <node id="ProgressionDescription">
 					<!-- Darkvision -->
@@ -45,8 +45,36 @@
 					<attribute id="ProgressionTableId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
 					<attribute id="SelectorId" type="FixedString" value=""/>
 					<attribute id="Type" type="FixedString" value=""/>
-					<attribute id="UUID" type="guid" value="acd6f38b-a375-4191-9067-5d035d67dfb0"/>
+					<attribute id="UUID" type="guid" value="acd6f38b-a375-4191-9067-5d035d679999"/> acd6f38b-a375-4191-9067-5d035d67dfb0
 				</node>
+				<!-- Ogre Fighter/Champion -->
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="FixedString" value="Ogre Fighter, Strong, Hardy, somewhat Agile and Stupid"/>
+                    <attribute id="DisplayName" type="FixedString" value="Ogre Fighter"/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value=""/>
+                    <attribute id="ProgressionId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ProgressionTableId" type="guid" value="ba4e707e-4bbd-4630-963b-ce2f29479999"/> ba4e707e-4bbd-4630-963b-ce2f2947f971
+                    <attribute id="SelectorId" type="FixedString" value=""/>
+                    <attribute id="Type" type="FixedString" value="Ogre Fighter"/>
+                    <attribute id="UUID" type="guid" value="c9e84f6f-4b3c-4820-9112-629637329999"/> c9e84f6f-4b3c-4820-9112-62963732b16c
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="FixedString" value="Ogre Champion, Stronger, Hardier, more Agile and less Stupid"/>
+                    <attribute id="DisplayName" type="FixedString" value="Ogre Champion"/>
+                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="ParamMatch" type="FixedString" value=""/>
+                    <attribute id="PassivePrototype" type="FixedString" value=""/>
+                    <attribute id="ProgressionId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ProgressionTableId" type="guid" value="69eb2e41-0317-46d7-a6b6-3593de1a9999"/> 69eb2e41-0317-46d7-a6b6-3593de1a5220
+                    <attribute id="SelectorId" type="FixedString" value=""/>
+                    <attribute id="Type" type="FixedString" value="Champion"/>
+                    <attribute id="UUID" type="guid" value="cf69154d-dcbc-4c49-b960-9240077f9999"/> cf69154d-dcbc-4c49-b960-9240077fa0c5
+                </node>
+				<!-- Ogre Fighter/Champion -->
             </children>
         </node>
     </region>

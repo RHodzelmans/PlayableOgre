@@ -7,12 +7,12 @@
 				<!-- Ogre ...\UnpackedData\Shared\Public\Shared\RootTemplates\_merged.lsx 327334 -->
 				<node id="GameObjects">
 					<!-- Changed this -->
-					<attribute id="Equipment" type="FixedString" value="EQP_Ogre_Greatclub" />
+					<attribute id="Equipment" type="FixedString" value="EQP_Ogre_club" />
 					<!-- Changed this -->
-					<attribute id="Icon" type="FixedString" value="40be5182-96c3-60b3-e097-007a55f88d23-EQP_Ogre_Greatclub_(Icon_Ogre)" />
+					<attribute id="Icon" type="FixedString" value="77a99f01-0b3d-484c-8fd7-b9f53c7178da-EQP_Ogre_Club_(Icon_Ogre)" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="MapKey" type="FixedString" value="8d50a730-6199-4eba-84fc-266db2829999" /> 8d50a730-6199-4eba-84fc-266db2829adb
-					<attribute id="Name" type="LSString" value="Ogre_867c3061-624e-4b02-babb-a23e743fb5d3" />
+					<attribute id="Name" type="LSString" value="Ogre_867c3061-624e-4b02-babb-a23e743fb5d3" /> Ogre_867c3061-624e-4b02-babb-a23e743fb5d3
 					<!-- 
 						Changed this
 						Controls the look in Game:
