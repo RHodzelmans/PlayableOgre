@@ -11,6 +11,6 @@ add equipment entry "OBJ_Potion_Healing"
 add equipmentgroup
 add equipment entry "OBJ_Potion_Healing"
 add equipmentgroup
-add equipment entry "ARM_ScaleMail_Body"
+add equipment entry "ARM_Hide_Body"
 add equipmentgroup
 add equipment entry "OBJ_Scroll_Revivify"
