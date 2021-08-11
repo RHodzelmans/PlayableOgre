@@ -19,11 +19,10 @@
                     <attribute id="Name" type="FixedString" value="Ogre"/>
                     <attribute id="ParentGuid" type="guid" value="00000000-0000-0000-0000-000000000000"/>
                     <attribute id="PrimaryAbility" type="uint8" value="1"/>
-                    <attribute id="ProgressionTableUUID" type="guid" value="ba4e707e-4bbd-4630-963b-ce2f29479999"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="ba4e707e-4bbd-4630-963b-ce2f2947f971"/>
                     <attribute id="SoundMagicType" type="uint8" value="5"/>
                     <attribute id="SpellCastingAbility" type="uint8" value="0"/>
-                    <attribute id="UUID" type="guid" value="721dfac3-92d4-41f5-b773-b7072a869999"/>
-                    <children>
+                    <attribute id="UUID" type="guid" value="721dfac3-92d4-41f5-b773-b7072a869999"/> Link to AbilityDistributionPresets
                         <node id="Tags">
                             <attribute id="Object" type="guid" value="1ae7017c-4884-4a43-bc4a-742fa0d29999"/>
                         </node>
@@ -42,9 +41,9 @@
                     <attribute id="MagicType" type="uint8" value="1"/>
                     <attribute id="MustPrepareSpells" type="bool" value="false"/>
                     <attribute id="Name" type="FixedString" value="OgreChampion"/>
-                    <attribute id="ParentGuid" type="guid" value="721dfac3-92d4-41f5-b773-b7072a869999"/>
+                    <attribute id="ParentGuid" type="guid" value="721dfac3-92d4-41f5-b773-b7072a86232g"/>
                     <attribute id="PrimaryAbility" type="uint8" value="1"/>
-                    <attribute id="ProgressionTableUUID" type="guid" value="69eb2e41-0317-46d7-a6b6-3593de1a9999"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="69eb2e41-0317-46d7-a6b6-3593de1a5220"/>
                     <attribute id="SoundMagicType" type="uint8" value="5"/>
                     <attribute id="SpellCastingAbility" type="uint8" value="0"/>
                     <attribute id="UUID" type="guid" value="e668c6f1-5149-4b10-ab7e-3637ed449999"/>
