@@ -4,6 +4,7 @@
 	<region id="Templates">
 		<node id="Templates">
 			<children>
+				<!-- Male -->
 				<!-- Ogre ...\UnpackedData\Shared\Public\Shared\RootTemplates\_merged.lsx 327334 -->
 				<node id="GameObjects">
 					<!-- Changed this -->
@@ -13,7 +14,7 @@
 					<attribute id="Icon" type="FixedString" value="40be5182-96c3-60b3-e097-007a55f88d23-EQP_Ogre_Greatclub_(Icon_Ogre)" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="MapKey" type="FixedString" value="8d50a730-6199-4eba-84fc-266db2829999" /> 8d50a730-6199-4eba-84fc-266db2829adb
-					<attribute id="Name" type="LSString" value="Ogre_bc9fb0ff-18f1-4622-8260-d872e21a5b75" />
+					<attribute id="Name" type="LSString" value="Ogre" />
 					<!-- 
 						Changed this
 						Controls the look in Game:
@@ -26,7 +27,150 @@
 					<attribute id="Type" type="FixedString" value="character" />
 					<!-- Changed this -->
 					<attribute id="SpellSet" type="FixedString" value="CommonOgreActions" />
-					<attribute id="_OriginalFileVersion_" type="int32" value="1073741871" />
+					<attribute id="_OriginalFileVersion_" type="int32" value="1073741899" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="3.7" />
+									<attribute id="Max" type="fvec3" value="0.40751 1.93354 0.0630085" />
+									<attribute id="Min" type="fvec3" value="-0.40751 -0.00135875 -0.1058585" />
+									<attribute id="Radius" type="float" value="0.5" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="3.7" />
+									<attribute id="Max" type="fvec3" value="0.81502 1.93354 0.126017" />
+									<attribute id="Min" type="fvec3" value="-0.81502 -0.00135875 -0.211717" />
+									<attribute id="Radius" type="float" value="0.7" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="3.7" />
+									<attribute id="Max" type="fvec3" value="0.81502 1.93354 0.126017" />
+									<attribute id="Min" type="fvec3" value="-0.81502 -0.00135875 -0.211717" />
+									<attribute id="Radius" type="float" value="1.2" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster" />
+						<node id="LocomotionParams" />
+						<node id="SkillList">
+							<children>
+								<node id="Skill">
+									<attribute id="AIFlags" type="uint8" value="0" />
+									<attribute id="CasualExplorer" type="bool" value="True" />
+									<attribute id="Classic" type="bool" value="True" />
+									<attribute id="HonorHardcore" type="bool" value="True" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<!-- Changed this -->
+									<attribute id="Skill" type="FixedString" value="Rush_Charge_Ogre" />
+									<attribute id="SpellCastinAbility" type="uint8" value="0" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="TacticianHardcore" type="bool" value="True" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Skill">
+									<attribute id="AIFlags" type="uint8" value="0" />
+									<attribute id="CasualExplorer" type="bool" value="True" />
+									<attribute id="Classic" type="bool" value="True" />
+									<attribute id="HonorHardcore" type="bool" value="True" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="Skill" type="FixedString" value="Shout_Reckless_Ogre_Player" />
+									<attribute id="SpellCastinAbility" type="uint8" value="0" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="TacticianHardcore" type="bool" value="True" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Skill">
+									<attribute id="AIFlags" type="uint8" value="0" />
+									<attribute id="CasualExplorer" type="bool" value="True" />
+									<attribute id="Classic" type="bool" value="True" />
+									<attribute id="HonorHardcore" type="bool" value="True" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<!-- Changed this -->
+									<attribute id="Skill" type="FixedString" value="Target_Gore_Ogre_Player" />
+									<attribute id="SpellCastinAbility" type="uint8" value="0" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="TacticianHardcore" type="bool" value="True" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<!-- Female -->
+				<node id="GameObjects">
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="4ac5b5d8-6e26-e59b-42e3-41ed51ad9481" />
+					<attribute id="Equipment" type="FixedString" value="EQP_Ogre_Greatclub" />
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Ogre" />
+					<attribute id="Icon" type="FixedString" value="4ac5b5d8-6e26-e59b-42e3-41ed51ad9481-EQP_Ogre_Club_(Icon_Ogre)" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="8d50a730-6199-4eba-84fc-266db2828888" />
+					<attribute id="Name" type="LSString" value="Ogre" />
+					<attribute id="ParentTemplateId" type="FixedString" value="512426f2-01fd-405e-9148-8b9e6b10e10c" /> 
+					<attribute id="Stats" type="FixedString" value="Ogre" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int32" value="1073741888" />
+					
 					<children>
 						<node id="Bounds">
 							<children>
