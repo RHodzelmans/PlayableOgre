@@ -14,7 +14,7 @@
                     <attribute id="ParamMatch" type="FixedString" value=""/>
                     <attribute id="PassivePrototype" type="FixedString" value=""/>
                     <attribute id="ProgressionId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
-                    <attribute id="ProgressionTableId" type="guid" value="8e8a934b-578c-4193-bbe4-23caf345c72a"/>
+                    <attribute id="ProgressionTableId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
                     <attribute id="SelectorId" type="FixedString" value=""/>
                     <attribute id="Type" type="FixedString" value="PlayableOgre"/>
                     <attribute id="UUID" type="guid" value="eee7467e-75b8-4fca-805b-2eba5cd69999"/>
