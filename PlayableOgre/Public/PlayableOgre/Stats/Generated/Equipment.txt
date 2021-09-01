@@ -3,8 +3,6 @@ add initialweaponset "Melee"
 add equipmentgroup
 add equipment entry "WPN_Ogre_Club"
 add equipmentgroup
-add equipment entry "WPN_Javelin"
-add equipmentgroup
 add equipment entry "ARM_Boots_Leather"
 add equipmentgroup
 add equipment entry "OBJ_Potion_Healing"
