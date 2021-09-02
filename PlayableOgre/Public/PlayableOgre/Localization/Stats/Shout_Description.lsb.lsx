@@ -8,7 +8,7 @@
 					<attribute id="UUID" type="FixedString" value="CustomDescription" />
 					<attribute id="ExtraData" type="LSString" value="" />
 					<attribute id="Stub" type="bool" value="True" />
-					<attribute id="Content" type="TranslatedString" handle="h35454f99gca0ag4efcg9d64g8ea193e2c9a6" version="1" />
+					<attribute id="Content" type="TranslatedString" handle="h349a0ceeg568fg4500ga945gb2b2110cb2d3" version="1" />
 					<attribute id="Speaker" type="FixedString" value="" />
 				</node>
       </children>
