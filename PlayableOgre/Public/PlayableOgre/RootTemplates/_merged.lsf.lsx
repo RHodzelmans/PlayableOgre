@@ -149,7 +149,7 @@
 				<node id="GameObjects">
 					<attribute id="CharacterVisualResourceID" type="FixedString" value="4ac5b5d8-6e26-e59b-42e3-41ed51ad9481" />
 					<attribute id="GeneratePortrait" type="LSString" value="Icon_Ogre" />
-					<attribute id="Icon" type="FixedString" value="4ac5b5d8-6e26-e59b-42e3-41ed51ad9481-EQP_Ogre_Club_(Icon_Ogre)" />
+					<attribute id="Icon" type="FixedString" value="73c18943-5300-6d3f-382a-969c7dd696c8-EQP_Ogre_Greatclub_(Icon_Ogre)" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="LevelOverride" type="int32" value="1" />
 					<attribute id="MapKey" type="FixedString" value="8d50a730-6199-4eba-84fc-266db2828888" />
