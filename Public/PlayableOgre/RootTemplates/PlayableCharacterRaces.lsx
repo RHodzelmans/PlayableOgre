@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="7" build="2" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<!--Ogre Male-->
+				<node id="GameObjects">
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="ffb1ade6-e024-bb4f-46f7-3f28c2c9309a" /> <!-- ID for Ogre in [PAK]_CharacterVisuals -->
+					<!-- <attribute id="EquipmentRace" type="guid" value="e39505f7-f576-4e70-9ea9-298e38cd111a" /> Cannot find a link this goes to -->
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Ogre" />
+					<attribute id="Icon" type="FixedString" value="77a99f01-0b3d-484c-8fd7-b9f53c7178da-EQP_Ogre_Club_(Icon_Ogre)" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="dc170e67-5edb-48f0-b600-a29b3dffffff" /> <!-- Key for RootTemplate in CharacterCreationPreset -->
+					<attribute id="Name" type="LSString" value="Ogre Male" />
+					<attribute id="ParentTemplateId" type="FixedString" value="cfef7d2e-39f1-41c3-8b76-05d47b73fc16" />
+					<attribute id="Race" type="guid" value="dc170e67-5edb-48f0-00b6-9ba282123456" /> <!-- No Link -->					
+					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
+					<attribute id="Stats" type="FixedString" value="Ogre" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725060" />
+				</node>
+				<!--Ogre Female-->
+				<node id="GameObjects">
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="3b449cff-61e8-4ac5-b56f-9d8e48b24777" />
+					<!--<attribute id="EquipmentRace" type="guid" value="47c0315c-7dc6-4862-9bb3-f38b0fa1548b" /> Cannot find a link this goes to -->
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Human_Female_Strong" />
+					<attribute id="Icon" type="FixedString" value="d1dc6034-39ff-71bb-ebf6-383e35007dae-_(Icon_Human_Female_Strong)" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="7bb16c43-c45f-470f-8d7f-a04931eeeeee" /> <!-- Key for RootTemplate in CharacterCreationPreset -->
+					<attribute id="Name" type="LSString" value="Ogre Female" />
+					<attribute id="ParentTemplateId" type="FixedString" value="15daa7bd-9af6-4aea-8d61-a82dbf395670" /> <!-- Elven Female -->
+					<attribute id="Race" type="guid" value="dc170e67-5edb-48f0-00b6-9ba282654321" /> <!-- No Link -->			
+					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
+					<attribute id="Stats" type="FixedString" value="HeroElfFemale" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725060" />
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

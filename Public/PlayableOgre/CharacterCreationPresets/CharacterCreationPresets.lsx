@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="0" build="52"/>
+    <region id="CharacterCreationPresets">
+        <node id="root">
+            <children>	
+				<!-- Ogres -->	
+                <node id="CharacterCreationPreset">
+                    <attribute id="CloseUpA" type="LSString" value="HUM_MS_Camera_Closeup_A"/>
+                    <attribute id="CloseUpB" type="LSString" value="HUM_MS_Camera_Closeup_B"/>
+                    <attribute id="BodyType" type="uint8" value="0"/>
+                    <attribute id="Overview" type="LSString" value="HUM_M_Camera_Overview_A"/>
+                    <attribute id="RaceUUID" type="guid" value="dc170e67-5edb-48f0-b600-a29b3dffffff"/> <!-- Link to Races -->
+                    <attribute id="RootTemplate" type="guid" value="dab92ef1-72e1-4428-81d0-4d6943ffffff"/> <!-- Links to MapKey -->
+                    <attribute id="SubRaceUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="UUID" type="guid" value="b03591fc-bff1-4249-a02f-09462b123456"/> <!-- No Link -->
+                </node>
+                <node id="CharacterCreationPreset">
+                    <attribute id="CloseUpA" type="LSString" value="HUM_FS_Camera_Closeup_A"/>
+                    <attribute id="CloseUpB" type="LSString" value="HUM_FS_Camera_Closeup_B"/>
+                    <attribute id="BodyType" type="uint8" value="1"/>
+                    <attribute id="Overview" type="LSString" value="HUM_F_Camera_Overview_A"/>
+                    <attribute id="RaceUUID" type="guid" value="dc170e67-5edb-48f0-b600-a29b3dffffff"/> <!-- Link to Races -->
+                    <attribute id="RootTemplate" type="guid" value="7bb16c43-c45f-470f-8d7f-a04931eeeeee"/> <!-- Links to MapKey -->
+                    <attribute id="SubRaceUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="UUID" type="guid" value="e2ee7e90-6ec8-4e9b-a69c-8fe2e5654321"/> <!-- No Link -->
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

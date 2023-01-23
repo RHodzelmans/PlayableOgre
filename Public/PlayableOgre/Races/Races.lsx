@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="8" build="611"/>
+    <region id="Races">
+        <node id="root">
+            <children>								
+                <node id="Race">
+                    <attribute id="Description" type="FixedString" value="Shared_Races_New_Stat_45_Description"/>
+                    <attribute id="DisplayName" type="FixedString" value="Shared_Races_New_Stat_45_DisplayName"/>
+                    <attribute id="DisplayType" type="FixedString" value="Shared_Races_New_Stat_45_DisplayType"/>
+                    <attribute id="Name" type="FixedString" value="Ogre"/>
+					<attribute id="ParentGuid" type="guid" value="cfef7d2e-39f1-41c3-8b76-05d47b73fc16"/> <!-- Ogre -->
+                    <attribute id="ProgressionTableUUID" type="guid" value="efce75a6-0c22-4d2a-aaf6-4c26e0ffffff"/> <!-- Linked to ProgressionTable UUID -->
+                    <attribute id="RaceSoundSwitch" type="FixedString" value="Giant"/>
+                    <attribute id="UUID" type="guid" value="dc170e67-5edb-48f0-b600-a29b3dffffff"/> <!-- No Link -->
+                </node>				
+            </children>
+        </node>
+    </region>
+</save>                

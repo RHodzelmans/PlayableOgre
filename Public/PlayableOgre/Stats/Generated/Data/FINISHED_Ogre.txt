@@ -1,0 +1,64 @@
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->
+<!--------------------- Ogre Passives --------------------->
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->
+
+
+new entry "TakesOneToKnowOne"
+type "PassiveData"
+data "Icon" "PassiveFeature_DarkDevotion"
+data "DisplayName" "Takes One to Know One."
+data "Description" "You have advantage on saving throws against being charmed."
+data "Boosts" "Tag(CHARMED_ADV)"
+data "Properties" "Highlighted"
+
+
+
+
+new entry "AFriendlyEar"
+type "PassiveData"
+data "Icon" "Spell_Enchantment_Friends"
+data "DisplayName" "A Friendly Ear"
+data "Description" "You can attempt to charm a non-hostile creature you are conversing with. The creature must make a Wisdom saving throw, the DC for this saving throw equals 8 + Charisma Modifier + Proficiency Bonus. On a failed save, the target is charmed by you for one hour."
+data "ExtraDescription" "You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+data "Boosts" "UnlockSpell(Trait_AFriendlyEar,,,,Charisma)"
+data "Properties" "Highlighted"
+
+
+
+
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->
+<!--------------------- Ogre Traits --------------------->
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->
+
+
+new entry "Trait_AFriendlyEar"
+type "SpellData"
+data "SpellType" "Target"
+data "TargetRadius" "18"
+data "Requirements" "!Combat"
+data "SpellRoll" "not SavingThrow(Ability.Wisdom, SourceSpellDC(),AdvantageOnCharmPerson())"
+data "SpellSuccess" "ApplyStatus(CHARMED,100,600)"
+data "TargetConditions" "not Self() and Character() and and not (not Player(context.Source) and IsCrowdControlled(context.Target)) "
+data "Icon" "Spell_Enchantment_Friends"
+data "DisplayName" "A Friendly Ear"
+data "Description" "You can attempt to charm a non-hostile creature you are conversing with. On a failed save, the target is charmed by you for one hour, regardless of whether or not the target makes the save, they remain unaware of your attempt."
+data "ExtraDescription" "You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+data "TooltipAttackSave" "Wisdom"
+data "TooltipStatusApply" "ApplyStatus(CHARMED,100,600)"
+data "PrepareSound" "Spell_Prepare_Control_Gen_L1to3_01"
+data "PrepareLoopSound" "Spell_Prepare_Control_Gen_L1to3_01_Loop"
+data "CastSound" "Spell_Cast_Control_Friends_L0"
+data "TargetSound" "Spell_Impact_Control_Friends_L0"
+data "CastTextEvent" "Cast"
+data "CycleConditions" "Character() and not Ally() and not Dead()"
+data "UseCosts" "ActionPoint:1;Trait:1"
+data "SpellAnimation" "554a18f7-952e-494a-b301-7702a85d4bc9,,;,,;af94aac1-d8eb-4ccb-9520-694ade11b61c,,;f5db4001-b136-4c48-9aa4-026c4a7dd3b7,,;22dfbbf4-f417-4c84-b39e-2039315961e6,,;,,;5bfbe9f9-4fc3-4f26-b112-43d404db6a89,,;,,;,,"
+data "VerbalIntent" "Control"
+data "SpellFlags" "HasVerbalComponent"
+data "RechargeValues" "5-6"
+data "HitAnimationType" "None"
+data "MemoryCost" "1"
+data "PrepareEffect" "d7ff6074-0dee-46eb-84c2-fed6118b0cc3"
+data "CastEffect" "238adc5b-64e5-474a-b5fa-c4c5d032a21b"
+data "TargetEffect" "5cd08691-b441-43e1-b9d7-14668e4affa5"
+data "BeamEffect" "ef76e96c-3b6e-41f1-8d62-7c8813ca7624"

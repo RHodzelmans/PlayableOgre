@@ -1,8 +1,0 @@
-{
-  "name": "Playable_Ogre",
-  "version_number": "0.9.0",
-  "website_url": "https://github.com/RHodzelmans/PlayableOgre",
-  "description": "Allows you to play as a Ogre.",
-  "dependencies": [
-  ]
-}

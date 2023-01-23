@@ -8,12 +8,13 @@
                     <attribute id="AllowImprovement" type="bool" value="false"/>
                     <attribute id="Boosts" type="LSString" value="Ability(Intelligence,-6);Ability(Wisdom,2);Ability(Charisma,-1);Ability(Strength,5);IncreaseMaxHP(66);AC(4);DarkvisionRangeMin(12)"/>
                     <attribute id="Level" type="uint8" value="1"/>
-                    <attribute id="Name" type="LSString" value="PlayableOgre"/>
+                    <attribute id="Name" type="LSString" value="Ogre"/>
+                    <attribute id="PassivesAdded" type="LSString" value="TakesOneToKnowOne;PowerfulBuild;AFriendlyEar;Traits"/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="2"/>
                     <attribute id="Selectors" type="LSString" value=""/>
-                    <attribute id="TableUUID" type="guid" value="8e8a934b-578c-4193-bbe4-23caf345c72a"/>
-                    <attribute id="UUID" type="guid" value="0dc8844b-2b65-426c-a9af-3d0705647c4a"/>
+                    <attribute id="TableUUID" type="guid" value="efce75a6-0c22-4d2a-aaf6-4c26e0ffffff"/> <!-- Linked by Races ProgressionTableUUID -->
+                    <attribute id="UUID" type="guid" value="11d3fa5d-3e88-4c8c-b21c-e183d7ffffff"/> 
                 </node>
             </children>
         </node>
