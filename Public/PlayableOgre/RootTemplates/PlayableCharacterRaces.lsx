@@ -126,7 +126,7 @@
 					</children>
 				</node>
 				<node id="GameObjects">
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="370ffacc-6ed7-9221-6605-fb9770f08607" /> <!-- CharacterVisualResourceID in Shared\Public\Shared\RootTemplates\_merged.lsx -->
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="4ac5b5d8-6e26-e59b-42e3-41ed51ad9481" /> <!-- CharacterVisualResourceID in Shared\Public\Shared\RootTemplates\_merged.lsx -->
 					<attribute id="GeneratePortrait" type="LSString" value="Icon_Ogre" />
 					<attribute id="Icon" type="FixedString" value="370ffacc-6ed7-9221-6605-fb9770f08607-EQP_Ogre_Club_(Icon_Ogre)" /> <!-- Icon in Shared\Public\Shared\RootTemplates\_merged.lsx -->
 					<attribute id="LevelName" type="FixedString" value="" />
