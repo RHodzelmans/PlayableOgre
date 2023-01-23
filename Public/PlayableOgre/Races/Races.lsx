@@ -3,17 +3,22 @@
     <version major="4" minor="0" revision="8" build="611"/>
     <region id="Races">
         <node id="root">
-            <children>								
+            <children>
                 <node id="Race">
                     <attribute id="Description" type="FixedString" value="Shared_Races_New_Stat_45_Description"/>
                     <attribute id="DisplayName" type="FixedString" value="Shared_Races_New_Stat_45_DisplayName"/>
                     <attribute id="DisplayType" type="FixedString" value="Shared_Races_New_Stat_45_DisplayType"/>
                     <attribute id="Name" type="FixedString" value="Ogre"/>
-					<attribute id="ParentGuid" type="guid" value="cfef7d2e-39f1-41c3-8b76-05d47b73fc16"/> <!-- Ogre -->
-                    <attribute id="ProgressionTableUUID" type="guid" value="efce75a6-0c22-4d2a-aaf6-4c26e0ffffff"/> <!-- Linked to ProgressionTable UUID -->
+                    <attribute id="ParentGuid" type="guid" value="177b5c65-3f54-48a0-9e3b-edd74c0685a7"/> <!-- Humanoid: 899d275e-9893-490a-9cd5-be856794929f -->
+                    <attribute id="ProgressionTableUUID" type="guid" value="7ce6c941-4964-41a2-906f-71d4e1527111"/> <!-- Linked to Progressions - TableUUID -->
                     <attribute id="RaceSoundSwitch" type="FixedString" value="Giant"/>
-                    <attribute id="UUID" type="guid" value="dc170e67-5edb-48f0-b600-a29b3dffffff"/> <!-- No Link -->
-                </node>				
+                    <attribute id="UUID" type="guid" value="f4c86fa1-82da-4769-9773-598ffa08d111"/> <!-- CharacterCreationPreset RaceUUID -->
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="cb53ec1e-af17-4dc2-bb28-2ac56d7eba96"/>
+                        </node>
+                    </children>
+                </node>
             </children>
         </node>
     </region>

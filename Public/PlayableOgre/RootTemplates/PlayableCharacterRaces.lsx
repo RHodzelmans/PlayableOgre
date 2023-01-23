@@ -4,39 +4,123 @@
 	<region id="Templates">
 		<node id="Templates">
 			<children>
-				<!--Ogre Male-->
 				<node id="GameObjects">
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="ffb1ade6-e024-bb4f-46f7-3f28c2c9309a" /> <!-- ID for Ogre in [PAK]_CharacterVisuals -->
-					<!-- <attribute id="EquipmentRace" type="guid" value="e39505f7-f576-4e70-9ea9-298e38cd111a" /> Cannot find a link this goes to -->
-					<attribute id="Flag" type="int32" value="0" />
+					<!-- Ogre -->
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="6ea37d77-3310-a586-2e37-33a78d0f72d4" /> <!-- CharacterVisualResourceID in WLD_Main_A/Characters/_merged -->
 					<attribute id="GeneratePortrait" type="LSString" value="Icon_Ogre" />
-					<attribute id="Icon" type="FixedString" value="77a99f01-0b3d-484c-8fd7-b9f53c7178da-EQP_Ogre_Club_(Icon_Ogre)" />
+					<attribute id="Icon" type="FixedString" value="6ea37d77-3310-a586-2e37-33a78d0f72d4-EQP_Ogre_Greatclub_(Icon_Ogre)" /> <!-- Icon in WLD_Main_A/Characters/_merged -->
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="dc170e67-5edb-48f0-b600-a29b3dffffff" /> <!-- Key for RootTemplate in CharacterCreationPreset -->
-					<attribute id="Name" type="LSString" value="Ogre Male" />
-					<attribute id="ParentTemplateId" type="FixedString" value="cfef7d2e-39f1-41c3-8b76-05d47b73fc16" />
-					<attribute id="Race" type="guid" value="dc170e67-5edb-48f0-00b6-9ba282123456" /> <!-- No Link -->					
-					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
-					<attribute id="Stats" type="FixedString" value="Ogre" />
+					<attribute id="MapKey" type="FixedString" value="73d0e2ac-20ad-41b7-9a9b-88d82f54b111" /> <!-- Key for RootTemplate in CharacterCreationPreset -->
+					<attribute id="Name" type="LSString" value="" />
+					<attribute id="ParentTemplateId" type="FixedString" value="cfef7d2e-39f1-41c3-8b76-05d47b73fc16" /> <!-- TemplateName: WLD_Main_A/Characters/_merged Old: 1a1415cd-0e96-4e9f-961e-480dc29bc008 -->
+					<attribute id="ReadinessFlags" type="uint32" value="12" />
 					<attribute id="Type" type="FixedString" value="character" />
-					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725060" />
-				</node>
-				<!--Ogre Female-->
-				<node id="GameObjects">
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="3b449cff-61e8-4ac5-b56f-9d8e48b24777" />
-					<!--<attribute id="EquipmentRace" type="guid" value="47c0315c-7dc6-4862-9bb3-f38b0fa1548b" /> Cannot find a link this goes to -->
-					<attribute id="Flag" type="int32" value="0" />
-					<attribute id="GeneratePortrait" type="LSString" value="Icon_Human_Female_Strong" />
-					<attribute id="Icon" type="FixedString" value="d1dc6034-39ff-71bb-ebf6-383e35007dae-_(Icon_Human_Female_Strong)" />
-					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="7bb16c43-c45f-470f-8d7f-a04931eeeeee" /> <!-- Key for RootTemplate in CharacterCreationPreset -->
-					<attribute id="Name" type="LSString" value="Ogre Female" />
-					<attribute id="ParentTemplateId" type="FixedString" value="15daa7bd-9af6-4aea-8d61-a82dbf395670" /> <!-- Elven Female -->
-					<attribute id="Race" type="guid" value="dc170e67-5edb-48f0-00b6-9ba282654321" /> <!-- No Link -->			
-					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
-					<attribute id="Stats" type="FixedString" value="HeroElfFemale" />
-					<attribute id="Type" type="FixedString" value="character" />
-					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725060" />
+					<attribute id="Stats" type="FixedString" value="Character_OgreMale" />	<!-- Stats\Generated\Data\_Essential -->
+					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />										
+					<attribute id="VisualTemplate" type="FixedString" value="1d8bb451-8eb8-b88f-fdba-98be05ce5890" /> <!-- Ogre\[PAK]_Male_Body old: ab4c400d-6287-a77d-3948-45a5f01ed913 -->
+					<attribute id="VocalLaughterResourceID" type="FixedString" value="0a2990d7-4b6a-46dc-cab5-b98eb6c8e981" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115196665790672" />
+					<children>
+						<node id="ItemList" />
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="WLD_Main_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="303db700-f9db-a9ea-3a29-f33a6f06b158" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="28b53b44-9a9b-974d-7608-296db9aac9d9" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams" />
+						<node id="SkillList">
+							<children>
+								<node id="Skill">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="CasualExplorer" type="bool" value="True" />
+									<attribute id="Classic" type="bool" value="True" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="HonorHardcore" type="bool" value="True" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="Skill" type="FixedString" value="Throw_Throw" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="TacticianHardcore" type="bool" value="True" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Skill">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="CasualExplorer" type="bool" value="True" />
+									<attribute id="Classic" type="bool" value="True" />
+									<attribute id="FallbackStartRound" type="int32" value="0" />
+									<attribute id="HonorHardcore" type="bool" value="True" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="Skill" type="FixedString" value="Projectile_StoneThrow_Ogre" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="TacticianHardcore" type="bool" value="True" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="542b58f0-42ad-4157-8ea2-43270e4e187b" />
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="5.071525 31.55891 369.3363" />
+							<attribute id="RotationQuat" type="fvec4" value="0 0.4109289 0 0.9116674" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
 				</node>
 			</children>
 		</node>

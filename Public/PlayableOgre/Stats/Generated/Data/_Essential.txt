@@ -1,0 +1,29 @@
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->
+<!--------------------- Player Character Presets --------------------->
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->
+
+new entry "Character_OgreMale"
+type "Character"
+using "_Hero"
+data "Weight" "100"
+
+new entry "Character_OgreFemale"
+type "Character"
+using "_Hero"
+data "Weight" "100"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

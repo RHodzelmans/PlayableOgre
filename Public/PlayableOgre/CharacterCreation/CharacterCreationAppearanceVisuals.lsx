@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="0" build="67"/>
+    <region id="CharacterCreationAppearanceVisuals">
+        <node id="root">
+            <children>
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->
+<!------------------ Ogre Male Heads  ------------------->
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->
+                <node id="CharacterCreationAppearanceVisual"><!--_OGRE_M_Head_A old: BUGBEAR_Head_A_Base-->
+                    <attribute id="DisplayName" type="FixedString" value="OgreM"/>
+                    <attribute id="BodyType" type="uint8" value="0"/>					
+                    <attribute id="RaceUUID" type="guid" value="f4c86fa1-82da-4769-9773-598ffa08d111"/> <!-- Link to Races UUID -->
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="d8cde5b4-a8e3-49d3-8877-a710f0fd9111"/>
+                    <attribute id="VisualResource" type="guid" value="81a61023-8185-c4a1-e5c5-cd55822f59f3"/> <!-- [PAK]_OGRE_M_Head_A -->
+                </node>
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->
+<!------------------ Ogre Female Heads  ------------------->
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->
+                <node id="CharacterCreationAppearanceVisual"><!-- [PAK]_OGRE_F_Head_A old: BUGBEAR_Head_A_Base-->
+                    <attribute id="DisplayName" type="FixedString" value="OgreF"/>
+                    <attribute id="BodyType" type="uint8" value="1"/>					
+                    <attribute id="RaceUUID" type="guid" value="f4c86fa1-82da-4769-9773-598ffa08d111"/> <!-- Link to Races UUID -->
+                    <attribute id="RootTemplate" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="379c301f-8efb-4641-a69e-7726c601c111"/>
+                    <attribute id="VisualResource" type="guid" value="6720984d-06fa-b7ce-66f7-62a3c090400e"/> <!-- [PAK]_OGRE_F_Head_A -->
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
