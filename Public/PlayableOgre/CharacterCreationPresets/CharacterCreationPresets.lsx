@@ -4,7 +4,7 @@
     <region id="CharacterCreationPresets">
         <node id="root">
             <children>	
-                <node id="CharacterCreationPreset"><!--Orc Male-->	
+                <node id="CharacterCreationPreset"><!--Ogre Male-->	
                     <attribute id="CloseUpA" type="LSString" value="HUM_MS_Camera_Closeup_A"/>
                     <attribute id="CloseUpB" type="LSString" value="HUM_MS_Camera_Closeup_B"/>
                     <attribute id="BodyType" type="uint8" value="0"/>
@@ -15,13 +15,13 @@
                     <attribute id="UUID" type="guid" value="58f927b3-b41b-4bcf-8365-991cc1571ad8"/>
                     <attribute id="VOLinesTableUUID" type="guid" value="14df8f45-90af-4bd0-8024-42624da9976e"/>
                 </node>
-                <node id="CharacterCreationPreset"><!--Orc Female-->	
+                <node id="CharacterCreationPreset"><!--Ogre Female-->	
                     <attribute id="CloseUpA" type="LSString" value="HUM_FS_Camera_Closeup_A"/>
                     <attribute id="CloseUpB" type="LSString" value="HUM_FS_Camera_Closeup_B"/>
                     <attribute id="BodyType" type="uint8" value="1"/>
                     <attribute id="Overview" type="LSString" value="GTY_F_Camera_Overview_A_000"/>
                     <attribute id="RaceUUID" type="guid" value="f4c86fa1-82da-4769-9773-598ffa08d111"/> <!-- Link to Races UUID -->
-                    <attribute id="RootTemplate" type="guid" value="73d0e2ac-20ad-41b7-9a9b-88d82f54b111"/> <!-- Links to MapKey -->
+                    <attribute id="RootTemplate" type="guid" value="512426f2-01fd-405e-9148-8b9e6b10e222"/> <!-- Links to MapKey -->
                     <attribute id="SubRaceUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
                     <attribute id="UUID" type="guid" value="5b4f21cc-0077-4e6b-a547-b765850310ae"/>
                     <attribute id="VOLinesTableUUID" type="guid" value="14df8f45-90af-4bd0-8024-42624da9976e"/>

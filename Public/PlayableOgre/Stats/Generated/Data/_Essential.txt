@@ -6,6 +6,8 @@ new entry "Character_OgreMale"
 type "Character"
 using "_Hero"
 data "Weight" "100"
+data "ArmorType" "None"
+data "Proficiency Group" "SimpleWeapons"
 
 new entry "Character_OgreFemale"
 type "Character"
