@@ -36,7 +36,7 @@
 													<attribute id="Object" type="guid" value="28b53b44-9a9b-974d-7608-296db9aac9d9" />
 												</node>
 											</children>
-										</node>
+										</node>										
 									</children>
 								</node>
 							</children>
@@ -110,6 +110,9 @@
 						</node>
 						<node id="Tags">
 							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="25bf5042-5bf6-4360-f88d-10abcb7c370d" />
+								</node>													
 								<node id="Tag">
 									<attribute id="Object" type="guid" value="542b58f0-42ad-4157-8ea2-43270e4e187b" />
 								</node>
